@@ -1,0 +1,23 @@
+.colorp{
+    height: 650px;
+    display: flex;
+    
+    
+}
+
+#entrada{
+    padding: 30px;
+    margin: auto;
+    margin-top: 250px;
+    background-color: white;
+    
+}
+
+#inputs{
+    display: flex;
+}
+
+input{
+    padding: 0;
+    
+}
