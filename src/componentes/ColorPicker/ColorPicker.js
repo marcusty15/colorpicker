@@ -19,8 +19,8 @@ const ColorPicker = () => {
         <h2>Color Picker</h2>
         <div id='inputs'>
         <style>{' .colorp {background-color: '+color+';}' }</style>
-        <input className='m-' type="color" value={color} onChange={(e)=>{changeColor(e)}}/>
-        <input className='' type='text' value={color} onChange={(e)=>{changeColor(e)}}/>
+        <input  type="color" value={color} onChange={(e)=>{changeColor(e)}}/>
+        <input  type='text' value={color} onChange={(e)=>{changeColor(e)}}/>
         </div>
         </div>
         </div>
